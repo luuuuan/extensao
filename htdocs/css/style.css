@@ -1,0 +1,103 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonte/Quicksand_Bold.otf);
+}
+/*Configuracao para desktop*/
+.cabecalho{
+    display: flex;
+    position: relative;
+    background-color: #252525;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    /**/}
+.container_titulo h2{
+    position: relative;
+    top: 20%;
+    margin: 15px;
+    padding: 20px;
+    font-size: 1.5em;
+}
+.cabecalho h3{
+    position: relative;
+    color: #fff;
+    font-family: "Quicksand";
+    font-size: 1.6em;
+}
+
+/*Comeco configuração box carreiras*/
+.corpo{
+    display: flex;
+    box-shadow: none;
+}
+.carreiras h3{
+    position: relative;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.corpo .container_carreiras{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: ;
+}
+.container_carreiras .carreiras{
+    display: inline-block;
+    position: relative;
+    margin: 25px;
+    padding: 25px;
+    width: 150px;
+    border-radius: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.container_carreiras .carreiras ul{
+    position: relative;
+    margin-left: -25px;
+    text-align: center;
+}
+
+
+.container_carreiras .carreiras li{
+    font-size: 1.2em;
+    list-style: none;
+    margin-top: 15px;
+    transition: all ease .2s;
+    
+}
+.container_carreiras .carreiras a{
+    position: relative;
+    text-decoration: none;
+    color: #000;
+}
+.container_carreiras .carreiras li:hover{
+    transform: scale(1.2);
+    position: relative;
+    transition: all ease .2s;
+    
+
+}
+/*Fim carreiras*/
+
+/*Comeco dicas extras*/
+.container_extra{
+    position: relative;
+    padding: 25px;
+    margin: 20px;
+    width: 100% auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 25px;
+}
+
+
+/*Fim dicas extras*/

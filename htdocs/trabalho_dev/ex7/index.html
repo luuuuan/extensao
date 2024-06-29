@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio 7</title>
+    <style>
+        
+        body{
+            padding: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container{
+            display: flex;
+            position: relative;
+            padding: 25px;
+            margin: 15px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 25px;
+        }
+        .container_numeros{
+            display: block;   
+            width: 40%;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            padding: 35px;
+            border-radius: 25px;
+        }
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button{
+            -webkit-appearance: none;
+            width: 0;
+        }
+        input{
+            position: relative;
+            -moz-appearance: textfield;
+            border: 0;
+            border-bottom: 1px #000 solid;
+            
+        }
+        button{
+            padding: 5px;
+            background-color: #fff;
+            border-radius: 15px;
+            font-size: 15px;
+        }
+        .container_numeros h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container_numeros">
+            <h2>Digite dois números inteiros</h2>
+            <label for="num1">1° número</label><br>
+            <input type="number" id="num1"><br><br><br>
+            <label for="num2">2° número</label><br>
+            <input type="number" id="num2"><br><br>
+            <button id="btnResultado">Resultado</button>
+            <h1 id="h1resposta"></h1>
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>

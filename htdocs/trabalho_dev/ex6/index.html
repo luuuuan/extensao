@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio 6</title>
+    <style>
+        body{
+            padding: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container{
+            display: flex;
+            position: relative;
+            padding: 25px;
+            margin: 15px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 25px;
+        }
+        .container_notas{
+            display: block;   
+            width: 40%;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            padding: 35px;
+            border-radius: 25px;
+        }
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button{
+            -webkit-appearance: none;
+            width: 0;
+        }
+        input{
+            position: relative;
+            -moz-appearance: textfield;
+            border: 0;
+            border-bottom: 1px #000 solid;
+            
+        }
+        button{
+            padding: 5px;
+            background-color: #fff;
+            border-radius: 15px;
+            font-size: 15px;
+        }
+
+        .container_notas h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container_notas">
+            <h1>Nota Final</h1>
+            <p>
+                <h3>Critérios:</h3>
+                <ul>
+                    <li>Aprovado: Igual ou maior que 60</li>
+                    <li>Reprovado: Menor que 40</li>
+                    <li>Prova substitutiva: Igual ou maior que 40</li>
+                </ul>
+            </p>
+            <br><br>
+            <label for="nota">Nota Final: </label>
+            <input type="number" id="nota"><br><br>
+            <button id="resultado">Resultado</button>
+            <h3 id="msgNota"></h3>
+        </div>
+    </div>
+    <script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>
